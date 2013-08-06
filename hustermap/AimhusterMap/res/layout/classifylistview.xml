@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/Honeydew">
+      <LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"       
+             android:orientation="horizontal" 
+             android:weightSum="1.0"
+             android:background="@drawable/top_bg"
+             >
+
+         <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+           
+            />
+        
+        <TextView
+            android:id="@+id/show_placename"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="60dp"
+            android:textSize="10pt"
+            android:ellipsize = "start"
+            android:singleLine="true" 
+            />
+    </LinearLayout>
+    
+      <LinearLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"       
+             android:orientation="horizontal" 
+             android:weightSum="1.0"
+             android:background="@color/Honeydew"
+             android:id="@+id/hint_layout"
+             android:visibility="gone"
+             >
+       <TextView
+            android:id="@+id/hint_textview"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="6pt"
+            android:text="食堂充值点"
+            android:ellipsize = "end"
+            android:singleLine="true" 
+            />
+        <Button
+            android:id="@+id/clear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clear"
+           
+            />
+    </LinearLayout>
+      
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        />
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c1">#17FF83</color>
+    <color name="c2">#31FF91</color>
+    <color name="c3">#4BFF94</color>
+    <color name="c4">#65FFAC</color>
+    <color name="c5">#7FFFBA</color>
+    <color name="c6">#97FFC7</color>
+    <color name="c7">#B1FFD5</color>
+    <color name="cTOP">#009B4C</color>
+    <color name="cBG">#31FF91</color>
+    <color name="Honeydew">#F0FFF0</color>
+    <color name="DarkOliveGreen">#556B2F</color>
+    <color name="DarkSlateGray">#2F4F4F</color>
+</resources>

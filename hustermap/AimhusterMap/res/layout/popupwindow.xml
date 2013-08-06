@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+    android:background="@color/Honeydew"
+    android:orientation="vertical" >
+ 
+
+    <Button
+        
+        android:id="@+id/mess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:background="@drawable/button_style" 
+        android:text="食堂"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/bank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style"
+        android:text="银行"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/market"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style"
+        android:text="超市"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/atm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:background="@drawable/button_style"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="ATM机"/>
+   
+        <Button
+            android:id="@+id/hotel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_style"
+            android:text="旅馆" >
+        </Button>
+
+
+</LinearLayout>

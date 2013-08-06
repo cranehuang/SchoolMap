@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:orientation="vertical" 
+    android:background="@color/Honeydew"
+   >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:background="@drawable/top_bg"
+        >
+        <Button 
+            android:id="@+id/backBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            />
+         <TextView 
+         android:id="@+id/building_name"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textSize="10pt"
+         android:ellipsize = "start"
+         android:singleLine="true"
+      />
+    </LinearLayout>
+  
+   
+<ListView
+    android:id="@+id/detail_listview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:dividerHeight="1dp"
+    android:cacheColorHint="@android:color/transparent"
+   
+   />
+
+</LinearLayout>

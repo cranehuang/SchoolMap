@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <array name="colorbg">
+       <item>@color/c1</item>
+       <item>@color/cBG</item>
+       <item>@color/c2</item>
+       <item>@color/cBG</item>
+       <item>@color/c3</item>
+       <item>@color/cBG</item>
+       <item>@color/c4</item>
+       <item>@color/cBG</item>
+       <item>@color/c5</item>
+       <item>@color/cBG</item>
+       <item>@color/c6</item>
+       <item>@color/cBG</item>
+       <item>@color/c7</item>
+       <item>@color/cBG</item>
+   </array> 
+</resources>

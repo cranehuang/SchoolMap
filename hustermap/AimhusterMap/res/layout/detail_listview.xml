@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/detail_listitem"
+   >
+    
+    <TextView 
+        android:id="@+id/officename1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:paddingLeft="5dp"        
+        />
+  <RelativeLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="blocksDescendants" 
+   
+    >
+    
+    <Button  
+       android:id="@+id/docall1"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:focusable="false" 
+       android:background="@drawable/docall"
+       android:onClick="OnDetailItemBtnClick"
+       
+    />    
+
+  <TextView  
+    android:id="@+id/phonenum1"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="8pt"
+    android:layout_centerInParent="true"
+    android:paddingLeft="10dp"
+    /> 
+    <TextView  
+    android:id="@+id/officeroom"
+    android:layout_width="50sp" 
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:textSize="8pt"
+    />
+
+</RelativeLayout>
+
+    
+
+</LinearLayout>
